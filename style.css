@@ -1,0 +1,57 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* regole nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sinistro {
+  display: flex;
+  align-items: center;
+}
+
+/* regole destro */
+
+.destro ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: flex;
+  margin-left: 10px;
+}
+
+/* liste a comparsa */
+
+.primo, .secondo, .terzo, .quarto {
+  border: 1px solid black;
+  position: fixed;
+  top: 20px;
+}
+
+.primo {
+  right: 449px;
+}
+
+.secondo {
+  right: 366px;
+}
+
+.terzo {
+  right: 285px;
+}
+
+.quarto {
+  right: 240px;
+}
