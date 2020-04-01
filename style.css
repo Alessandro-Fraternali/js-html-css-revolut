@@ -43,3 +43,27 @@ li {
   flex-direction: column;
   border: 1px solid black;
 }
+
+/* hamburger menu */
+
+.burgerone {
+  display: flex;
+  flex-direction: column;
+}
+
+.destroburger {
+  display: none;
+}
+
+.menuburger {
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+  .destro {
+    display: none;
+  }
+  .destroburger {
+    display: inline-block;
+  }
+}
