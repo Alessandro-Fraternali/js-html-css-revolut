@@ -33,25 +33,13 @@ li {
 }
 
 /* liste a comparsa */
+.ok {
+  display: flex;
+  flex-direction: column;
+}
 
-.primo, .secondo, .terzo, .quarto {
+.casper ul {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
-  position: fixed;
-  top: 20px;
-}
-
-.primo {
-  right: 449px;
-}
-
-.secondo {
-  right: 366px;
-}
-
-.terzo {
-  right: 285px;
-}
-
-.quarto {
-  right: 240px;
 }
